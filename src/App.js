@@ -47,7 +47,7 @@ const App = () => (
         component={PasswordForgetScreen}
       />
       <Route exact path={ROUTES.ACCOUNT} component={AccountScreen} />
-      <Route exact path={ROUTES.ADMIN} component={AdminScreen} />
+      <Route path={ROUTES.ADMIN} component={AdminScreen} />
     </div>
   </Router>
 );
