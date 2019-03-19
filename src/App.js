@@ -10,6 +10,7 @@ import SignInScreen from "./screens/SignInScreen";
 import PasswordForgetScreen from "./screens/PasswordForgetScreen";
 import AccountScreen from "./screens/AccountScreen";
 import AdminScreen from "./screens/AdminScreen";
+import HomeScreen from "./screens/HomeScreen";
 
 // class App extends Component {
 //   render() {
@@ -39,6 +40,7 @@ const App = () => (
       <hr />
 
       <Route exact path={ROUTES.LANDING} component={LandingScreen} />
+      <Route exact path={ROUTES.HOME} component={HomeScreen} />
       <Route exact path={ROUTES.SIGN_UP} component={SignUpScreen} />
       <Route exact path={ROUTES.SIGN_IN} component={SignInScreen} />
       <Route
